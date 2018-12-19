@@ -1,6 +1,9 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
+  <!--<div class="hello">-->
+    <!--<h1>{{ msg }}</h1>-->
+  <!--</div>-->
+  <div>
+    <h2>Social</h2>
   </div>
 </template>
 
@@ -9,7 +12,7 @@
     name: 'Home',
     data () {
       return {
-        msg: 'Welcome to Your Vue.js App'
+        // msg: 'Welcome to Your Vue.js App'
       }
     }
   }
@@ -17,18 +20,5 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  h1, h2 {
-    font-weight: normal;
-  }
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  a {
-    color: #42b983;
-  }
+
 </style>
